@@ -1,0 +1,9 @@
+# Sallen-Key Second-Order Active Low-Pass Filter
+
+An analog signal conditioning project featuring a second-order Sallen-Key active low-pass filter simulated in LTspice to analyze frequency response, cutoff characteristics, and filter stability.
+
+## Overview
+This repository contains the LTspice schematic configuration for a $1\,\text{kHz}$ second-order active low-pass filter. The circuit implements a non-inverting operational amplifier configuration combined with precision resistor-capacitor networks to attenuate high-frequency signals past the cutoff frequency while maintaining a flat passband response.
+
+## Files Included
+* `Sallen_Key_LowPass_Filter.asc`: LTspice schematic file containing the complete circuit setup and AC sweep simulation directive.
